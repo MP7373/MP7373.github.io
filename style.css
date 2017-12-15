@@ -1,0 +1,109 @@
+.mainContainer {
+  min-width: 560px;
+}
+
+.background-pattern {
+  background-image: url("https://lostandtaken.com/wp-content/uploads/edd/2016/02/grungy-wrapping-paper-texture-2.jpg");
+  /* background-color: green; */
+  background-repeat: repeat;
+  z-index: -10;
+}
+
+#mePic{
+  display: inline;
+  padding: 1% 1% 1% 1%;
+}
+
+.thumbnail {
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.buttons {
+  margin: 5% 1% 1% 1%;
+}
+
+.blackText {
+  color: black;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.header {
+  padding-top: 2000;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  z-index: 999;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Century Gothic", serif;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+h3 {
+  font-family: "Century Gothic", serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 2% 2% 2% 2%;
+}
+
+.textWhite {
+  font-family: "Century Gothic", serif;
+  color: white;
+}
+
+.topBotMargin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projectPics {
+  display: block;
+  height: 250px;
+  width: 350px;
+}
+
+a:hover {
+  background: #C0C0C0;
+}
+
+.hovereffect:hover img {
+  -ms-transform:scale(1.05);
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+}
+
+.hovereffect img {
+  display:block;
+  position:relative;
+  -webkit-transition:all .3s linear;
+  transition:all .3s linear;
+}
+
+.cards {
+  padding: 3% 3% 5% 3%;
+}
+
+.contact {
+  padding: 2% 0% 2% 0%;
+}
+
+.info {
+  padding: 1% 1% 1% 1%;
+}
+
+.head-wrapper {
+  padding: 3% 3% 3% 3%;
+}
