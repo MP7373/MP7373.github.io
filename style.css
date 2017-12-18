@@ -3,8 +3,8 @@
 }
 
 .background-pattern {
-  background-image: url("https://lostandtaken.com/wp-content/uploads/edd/2016/02/grungy-wrapping-paper-texture-2.jpg");
-  /* background-color: green; */
+  background-image: url("./images/background.png");
+  background-color: gray;
   background-repeat: repeat;
   z-index: -10;
 }
@@ -52,7 +52,7 @@ h2 {
 h3 {
   font-family: "Century Gothic", serif;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 button {
@@ -106,4 +106,9 @@ a:hover {
 
 .head-wrapper {
   padding: 3% 3% 3% 3%;
+}
+
+.project {
+  padding: 1% 0% 1% 0%;
+  margin-bottom: 1%;
 }
