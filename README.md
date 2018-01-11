@@ -1,2 +1,4 @@
 # Portfolio Page
-This repository is for git pages and is my personal web developer web page.
+This is my web developer portfolio page.
+
+View on Git Pages[here](https://mp7373.github.io/).
