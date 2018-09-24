@@ -1,9 +1,13 @@
+body {
+  font-family: "Century Gothic", serif;
+}
+
 .mainContainer {
   min-width: 560px;
 }
 
 .background-pattern {
-  background-image: url("./images/background.png");
+  background-image: url("./images/green-background.jpg");
   background-color: gray;
   background-repeat: repeat;
   z-index: -10;
@@ -12,6 +16,18 @@
 #mePic{
   display: inline;
   padding: 1% 1% 1% 1%;
+}
+
+#email {
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+
+#email:hover {
+  text-decoration: none;
+  background-color: white;
+  color: darkgreen;w
 }
 
 .thumbnail {
@@ -44,13 +60,11 @@ h1 {
 }
 
 h2 {
-  font-family: "Century Gothic", serif;
   text-align: center;
   vertical-align: bottom;
 }
 
 h3 {
-  font-family: "Century Gothic", serif;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -60,7 +74,6 @@ button {
 }
 
 .textWhite {
-  font-family: "Century Gothic", serif;
   color: white;
 }
 
@@ -112,3 +125,8 @@ a:hover {
   padding: 1% 0% 1% 0%;
   margin-bottom: 1%;
 }
+
+.self-summary {
+  font-size: 1.5em;
+}
+
