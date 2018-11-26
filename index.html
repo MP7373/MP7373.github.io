@@ -1,93 +1,189 @@
-<!doctype html>
+<!doctype <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="./images/triangle.png">
-  </head>
-  <body>
-    <div class="background-pattern">
-      <div id="top" class="container-fluid mainContainer">
-        <div class="head-wrapper">
-          <div class="header row">
-            <div class="text-center col-sm-4 col-xs-12">
-              <img id="mePic" class ="rounded-circle col-sm-12" src="./images/mepic.jpg">
-            </div>
-            <div class="col-sm-8">
-              <div class="textWhite info text-left self-summary">
-                Hello, i'm Martin Payne, a software developer passionate about lifelong learning and am currently most interested in the JavaScript ecosystem.
-              </div>
-              <div class="text-center">
-                <div class="text-center buttons textWhite">Find me at:</div>
-                <a href="https://github.com/MP7373" target="_blank" class="btn buttons"><img src="./images/github-icon.png" height="50px" width="50px"></a>
-                <a href="https://www.linkedin.com/in/martin-payne-a1686b108/" target="_blank" class="btn buttons"><img src="./images/linkedin-icon.png" height="50px" width="50px"></a>
-                <a href="https://twitter.com/MartinPayne73" target="_blank" class="btn buttons"><img src="./images/twitter-icon.png" height="50px" width="50px"></a>                
-                <a href="https://www.facebook.com/martin.payne.7373" target="_blank" class="btn buttons"><img src="./images/facebook-icon.png" height="50px" width="50px"></a>
-              </div>
-            </div>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/png" href="assets/green-triangle.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="master-wrapper">
+    <nav>
+        <div id="mepic-wrapper">
+          <img id="mepic" src="assets/mepic.png" alt="picture of Martin Payne">
         </div>
-          <a id="projects"></a>
-          <h1 class="textWhite topBotMargin">Projects</h1>
-          <div class="card card-inverse card-block container text-center cards">
-            <div class="row">
-              <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 hovereffect project">
-                <h3>Weekly Watchlist</h3>
-                <a href="https://mp7373.github.io/WeeklyWatchlist/" target="_blank">
-                  <img class="thumbnail" src="./images/weekly-watchlist.png">
-                </a>
-              </div>
-              <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 hovereffect project">
-                <h3>Simon</h3>
-                <a href="https://codepen.io/MP7373/full/MEaQgW/" target="_blank">
-                  <img class="thumbnail" src="./images/simon.png">
-                </a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 hovereffect project">
-                <h3>Tic Tac Toe</h3>
-                <a href="https://codepen.io/MP7373/full/jLgggw/" target="_blank">
-                  <img class="thumbnail" src="./images/tictactoe.png">
-                </a>
-              </div>
-              <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 hovereffect project">
-                <h3>Rails Sample App</h3>
-                <a href="https://rails-sample-app-7373.herokuapp.com/" target="_blank">
-                  <img class="thumbnail" src="./images/railsapp.png">
-                </a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 hovereffect project">
-                <h3>postapic</h3>
-                <a href="https://postapic.herokuapp.com/" target="_blank">
-                  <img class="thumbnail projectPics" src="./images/postapic.png">
-                </a>
-              </div>
-              <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 hovereffect project">
-                <h3>2017 Summer Anime Watchlist</h3>
-                <a href="https://codepen.io/MP7373/full/mMbxyb/" target="_blank">
-                  <img class="thumbnail" src="./images/animelist.png">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="green">
-            <h1 class="textWhite topBotMargin">Contact Me</h1>
-            <a id="contact"></a>
-          </div>
-          <div class="card contact">
-            <a id="email" href="mailto:martinpayne73@gmail.com">martinpayne73@gmail.com</a>
-          </div>
-          <br>
-        </div>
-      </div>
-    </div>
+        <ul>
+          <li><a id="aboutAnchor" href="#about">About</a></li>
+          <li><a id="projectsAnchor" href="#projects">Projects</a></li>
+          <li><a id="skillsAnchor" href="#skills">Skills</a></li>
+          <li><a id="educationAnchor" href="#education">Education</a></li>
+          <li><a id="experienceAnchor" href="#experience">Experience</a></li>
+        </ul>
+    </nav>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </body>
+    <main id="main">
+      <section id="about">
+        <h1>Martin Payne</h1>
+        <ul id="address-contact-info">
+          <li>Raleigh, NC</li>
+          <li>(828) 318-2933</li>
+          <li>martinpayne73@gmail.com</li>
+        </ul>
+        <p id="bio-text">
+            I enjoy solving technical problems and learning new things; whether it's programming, history, language, or diving deep into a hobby or game.
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/MP7373"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/martin-payne-a1686b108/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/MartinPayne73"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/martin.payne.7373"><i class="fab fa-facebook"></i></a>
+        </div>
+      </section>
+
+      <section class="sub-section" id="projects">
+        <h2>Projects</h2>
+        <div id="projects-container">
+          <div class="project">
+            <h3>Weekly Watchlist</h3>
+            <a href="https://github.com/MP7373/WeeklyWatchlist">
+              <div class="project-image-wrapper">
+                <img src="assets/weekly-watchlist.png" alt="Image of the weekly watchlist site showing some popular shows on a watchlist.">
+              </div>
+            </a>
+            <p class="project-description">A progressive web app that allows users to keep track of any shows they are watching. Written in vanilla js to minimize dependencies and get practice with manual dom manipulation.</p>
+          </div>
+
+          <div class="project">
+            <h3>MalCal</h3>
+            <a href="https://github.com/MP7373/MalCal">
+              <div class="project-image-wrapper">
+                <img src="assets/malcal.png" alt="Image of MyAnimeList listview with the MalCal extension installed.">
+              </div>
+            </a>
+            <p class="project-description">A Google Chrome extension that injects a weekly layout of currently watching shows in the list view on MyAnimeList.net.</p>
+          </div>
+
+          <div class="project">
+            <h3>Simon</h3>
+            <a href="https://codepen.io/MP7373/full/MEaQgW/">
+              <div class="project-image-wrapper">
+                <img src="assets/simon.png" alt="Image of my Simon game on Codepen.">
+              </div>
+            </a>
+            <p class="project-description">An in browser version of the classic toy simon. A pattern is played and you must repeat it, then the pattern length is increased by one.</p>
+          </div>
+
+          <div class="project">
+            <h3>Postapic</h3>
+            <a href="https://postapic.herokuapp.com/">
+              <div class="project-image-wrapper">
+                <img src="assets/postapic.png" alt="Image of the postapic login section.">
+              </div>
+            </a>
+            <p class="project-description">A simple web app that allows users to log in and post pictures to a global feed. Built on the old MEAN stack (Angular 1).</p>
+          </div>
+
+          <div class="project">
+            <h3>Rails Twitter Clone</h3>
+            <a href="https://rails-sample-app-7373.herokuapp.com/help">
+              <div class="project-image-wrapper">
+                <img src="assets/railsapp.png" alt="Image of the home page of the rails twitter clone.">
+              </div>
+            </a>
+            <p class="project-description">A fully functional social media clone (most similar to Twitter) built with Ruby on Rails following a tutorial from an online book.</p>
+          </div>
+
+          <div class="project">
+            <h3>HTML Tic Tac Toe</h3>
+            <a href="https://codepen.io/MP7373/full/jLgggw/">
+              <div class="project-image-wrapper">
+                  <img src="assets/tictactoe.png" alt="Image of html tic tac toe page.">
+              </div>
+            </a>
+            <p class="project-description">An in browser tic tac toe game.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="sub-section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-outer-wrapper">
+          <ul class="skill-icons">
+            <div class="skill-icon-wrapper">
+              <h4>JavaScript</h4>
+              <i class="fab fa-js-square"></i>
+            </div>
+            <div class="skill-icon-wrapper">
+              <h4>HTML5</h4>
+              <i class="fab fa-html5"></i>
+            </div>
+            <div class="skill-icon-wrapper">
+              <h4>CSS3</h4>
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <div class="skill-icon-wrapper">
+              <h4>React.js</h4>
+              <i class="fab fa-react"></i>
+            </div>
+            <div class="skill-icon-wrapper">
+              <h4>Node.js</h4>
+              <i class="fab fa-node-js"></i>
+            </div>
+            <div class="skill-icon-wrapper">
+              <h4>npm</h4>
+              <i class="fab fa-npm"></i>
+            </div>
+            <div class="skill-icon-wrapper">
+              <h4>Sass</h4>
+              <i class="fab fa-sass"></i>
+            </div>
+            <div class="skill-icon-wrapper">
+              <h4>Java</h4>
+              <i class="fab fa-java"></i>
+            </div>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sub-section resume-section" id="education">
+        <h2>Education</h2>
+        <div class="resume-item">
+          <h3>University of North Carolina at Charlotte</h3>
+          <div class="time-span">January 2014 - June 2016</div>
+          <div class="certificate">Bachelor of Science, Computer Science</div>
+        </div>
+
+        <div class="resume-item">
+          <h3>freeCodeCamp</h3>
+          <div class="certificate">Responsive Web Design Certification</div>
+          <div class="time-span">November 19, 2018</div>
+          <div class="certificate">JavaScript Algorithms and Data Structures Certification</div>
+          <div class="time-span">October 29, 2018</div>
+          <div class="certificate">Legacy Front End Development Certification</div>
+          <div class="time-span">October 10, 2017</div>
+        </div>
+      </section>
+      
+      <section class="sub-section resume-section" id="experience">
+        <div class="resume-item">
+          <h2>Experience</h2>
+          <div class="resume-item">
+            <h3>MercuryGate International</h3>
+            <div class="certificate">Configuration Analist Intern</div>
+            <div class="time-span">July 9, 2018 - Present</div>
+            <p>-Analysed and modified customer logical rule configurations to increase performance, in many cases saving minutes of computing time caused by poorly written configurations.</p>
+            <p>-Wrote VBA code that helped automate the previously manual task of reviewing these configurations making a task that used to take 3 - 4 hours take 30 minutes to an hour.</p>
+            <p>-Wrote VBA code that merged spreadsheet attachments coming from automated emails of changes in these configurations and updated a master spreadsheet with these changes.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
 </html>
